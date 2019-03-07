@@ -1,4 +1,4 @@
-# csvfilterdistribution
+# csvfilterdistribution - CSV Filter Distribution
 
 ## 1. Introdução ##
 
@@ -11,6 +11,18 @@ Este repositório contém o código fonte do componente **csvfilterdistribution*
 
 ```bat
 C:\My Git\workspace-github\csvintoexcel\dist>java -jar csvfilterdistribution.jar
+Missing required options: i, c, o
+usage: csvfilterdistribution [<args-options-list>] - v.2019.03.05
+ -c,--config-csv-file <arg>   Nome do arquivo (.csv) de configuracao do
+                              filtro de distribuicao. Ex: config.csv
+ -h,--help                    shows usage help message. See more
+                              https://github.com/josemarsilva/csvfilterdis
+                              tribution
+ -i,--input-csv-file <arg>    Nome do arquivo (.csv) de entrada do
+                              processo de filtro e distribuicao. Ex:
+                              input.csv
+ -o,--output-csv-file <arg>   Nome do arquivo (.csv) de configuracao do
+                              filtro de distribuicao. Ex: config.csv
 ```
 
 
@@ -97,7 +109,7 @@ col-1;col-2;col-3;col-4;col-5
 
 * **Step-3**: Observando o arquivo `input.csv` identificamos que:
     * o arquivo tem uma amostra maior do que você precisa, logo você pode extrair os seus dados dele
-	* a coluna `3` do arquivo tem o tipo do animal, os felinos são: `gato|leao|onca|tigre|jaguatirica` e os _caninos_ são `cachorro|lobo`
+	* a coluna `3` do arquivo tem o tipo do animal, os felinos são: `gato|leao|onca|tigre|jaguatirica` e os _caninos_ são `cachorro|lobo` (ps: o \| funciona como "ou")
 	* desta especificação e requisitos montamos o arquivo de configuração `config3.csv`
 
 ```csv
