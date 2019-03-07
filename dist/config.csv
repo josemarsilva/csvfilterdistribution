@@ -1,0 +1,5 @@
+config-name;distribution;col-number-list;regular-expression
+pares;0.30;2;par
+america do sul;0.24987;4;Brasil|Argentina|Chile|Uruguai
+aves;0.01;3;cisne|papagaio|arara|sabia|aguia
+tons de cinza;0.30;5;branco|preto

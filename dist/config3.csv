@@ -1,0 +1,3 @@
+config-name;distribution;col-number-list;regular-expression
+felinos;0.2;3;gato|leao|onca|tigre|jaguatirica
+caninos;0.1;3;cachorro|lobo
