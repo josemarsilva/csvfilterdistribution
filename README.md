@@ -50,7 +50,7 @@ usage: csvfilterdistribution [<args-options-list>] - v.2019.03.05
 * IDE: Eclipse (recomendado Oxigen 2)
 * JDK: 1.8
 * Maven Repository dependence: Apache CLI
-* Maven Repository dependence: Apache POI
+
 
 ### 3.2. Guia para Desenvolvimento ###
 

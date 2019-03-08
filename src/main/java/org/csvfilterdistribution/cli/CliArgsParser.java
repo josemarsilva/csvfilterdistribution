@@ -104,6 +104,8 @@ public class CliArgsParser {
 	    			System.exit(-1);
 	        	}
 	        	
+	        	System.out.println(APP_NAME + " - "+ APP_VERSION);
+	        	
 	        }
 			
 		} catch (ParseException e) {
